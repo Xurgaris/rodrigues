@@ -27,7 +27,7 @@
     }
     #img-sobremim{
         height: 220px;
-        margin-left: 25px;
+        margin-left: 22px;
     }
 
     header {
@@ -89,7 +89,7 @@
     }
 
     .conteudo-corpo {
-        width: 90%;
+        width: 95%;
     }
     .conteudo-sobremim{
         background: #ffffff;
@@ -103,7 +103,7 @@
     }
     #titulos {
         margin-left: 10px;
-        font-size: 35px;
+        font-size: 25px;
         color: #08B81B;
         text-align: center;
         justify-content: center;
@@ -113,13 +113,13 @@
     }
     #subtitulos{
         color: #08B81B;
-        font-size: 25px;
+        font-size: 15px;
     }
 
     #text-projetos{
-        font-size: 20px;
+        font-size: 10px;
         color: #000000;
-        margin-top: -20px;
+        margin-top: -10px;
         
     } 
     .projeto{
