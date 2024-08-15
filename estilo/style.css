@@ -1,449 +1,508 @@
                                                                     @media only screen and (max-width: 766px) {
-    body {
-        background: #08B81B;
-    }
+                                                                        body {
+                                                                            background: #08B81B;
+                                                                        }
 
-    .primaria-cabecalho {
-        display: flex;
-        width: 90%;
-        align-items: center;
-        justify-content: center;
-        margin: auto;
-    }
-    .div-logos{
-        display: flex;
-        align-items: flex-end;
-        margin-right: 10px;
-        justify-content: center;
-        flex-direction: column;
-        gap: 5px;
-    }
-    #logowhats:hover,#logoinsta:hover{filter: brightness(70%);} 
-    #logowhats,#logoinsta{height: 35px;}
+                                                                        .primaria-cabecalho {
+                                                                            display: flex;
+                                                                            width: 90%;
+                                                                            align-items: center;
+                                                                            justify-content: center;
+                                                                            margin: auto;
+                                                                        }
 
-    #titulo-cabecalho {
-        color: #08B81B;
-        font-size: 15px;
-    }
-    #img-sobremim{
-        height: 100%;
-        width: 100%;
-        margin-top: 20px;
-    }
+                                                                        .div-logos {
+                                                                            display: flex;
+                                                                            align-items: flex-end;
+                                                                            margin-right: 10px;
+                                                                            justify-content: center;
+                                                                            flex-direction: column;
+                                                                            gap: 5px;
+                                                                        }
 
-    header {
-        display: flex;
-        background: #ffffff;
-        width: 80%;
-        height: 70px;
-        align-items: center;
-        justify-content: center;
-        margin-right: 40px;
-        border-bottom-right-radius: 20px;
-        border-bottom-left-radius: 20px;
-    }
+                                                                        #logowhats:hover,
+                                                                        #logoinsta:hover {
+                                                                            filter: brightness(70%);
+                                                                        }
 
+                                                                        #logowhats,
+                                                                        #logoinsta {
+                                                                            height: 35px;
+                                                                        }
 
+                                                                        #titulo-cabecalho {
+                                                                            color: #08B81B;
+                                                                            font-size: 15px;
+                                                                        }
 
-    /* CORPO-------------------- */
-    .primaria-corpo {
-        /* background: #ffffff; */
-        display: flex;
-        width: 100%;
-        margin-top: 20px;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
+                                                                        #img-sobremim {
+                                                                            height: 100%;
+                                                                            width: 100%;
+                                                                            margin-top: 20px;
+                                                                        }
 
-    .corp-f1 {
-        background: #08B81B;
-        display: flex;
-        flex-direction: column;
-        width: 99%;
-        height: auto;
-    }
-
-    .spam-banner {
-        background: #fff;
-        height: 15px;
-        margin-top: -10px;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-    }
-    #banner{
-        height: 50%;
-        width: 100%;
-    }
-
-
-    .corp-f2 {
-        display: flex;
-        background: #fff;
-        margin-top: 1px;
-        width: 99%;
-        flex-direction: column;
-        align-items: center;
-
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-    }
-
-    .conteudo-corpo {
-        width: 95%;
-    }
-    .conteudo-sobremim{
-        background: #ffffff;
-        margin-top: 50px;
-        text-align: center;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .conteudo-projetos{
-        background: #ffffff;
-        margin-top: 50px;
-    }
-    #titulos {
-        margin-left: 10px;
-        font-size: 25px;
-        color: #08B81B;
-        text-align: center;
-        justify-content: center;
-    }
-    #text-sobremim{
-        font-size: 15px;
-    }
-    #subtitulos{
-        color: #08B81B;
-        font-size: 18px;
-    }
-
-    #text-projetos{
-        font-size: 15px;
-        color: #000000;
-        margin-top: -10px;
-        
-    } 
-    .projeto{
-        display: flex;
-        flex-direction: column;
-        margin-top: -10px;
-    }
-    
-    .conteudo-chave{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      background-color: #ffffff;
-      border-radius: 20px;
-    }
-    #frase-chave1{
-        color: #08B81B;
-        font-size: 15px;
-        text-align: center;
-    }   
-    .conteudo-chave-2{
-        font-size: 13px;
-        margin-top: -10px;
-        display: flex;
-        color:#08B81B;
-        gap: 20px;
-    }
-}
-@media only screen and (min-width: 767px) and (max-width: 1023px){
-    body {
-        background: #08B81B;
-    }
-
-    #img-sobremim{
-        height: 200px;
-        margin-left: 30px;
-    }
-    .primaria-cabecalho {
-      
-        display: flex;
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-        margin: auto;
-    }
-    .div-logos{
-        display: flex;
-        align-items: flex-end;
-        margin-right: 20px;
-        justify-content: flex-end;
-        gap: 10px;
-    }
-    #logowhats:hover,#logoinsta:hover{filter: brightness(70%);} 
-
-    #titulo-cabecalho {
-        color: #08B81B;
-    }
-
-    header {
-        display: flex;
-        background: #ffffff;
-        width: 60%;
-        height: 70px;
-        margin-right: 125px;
-        align-items: center;
-        justify-content: center;
-        border-bottom-right-radius: 20px;
-        border-bottom-left-radius: 20px;
-    }
+                                                                        header {
+                                                                            display: flex;
+                                                                            background: #ffffff;
+                                                                            width: 80%;
+                                                                            height: 70px;
+                                                                            align-items: center;
+                                                                            justify-content: center;
+                                                                            margin-right: 40px;
+                                                                            border-bottom-right-radius: 20px;
+                                                                            border-bottom-left-radius: 20px;
+                                                                        }
 
 
 
-    /* CORPO-------------------- */
-    .primaria-corpo {
-        /* background: #ffffff; */
-        display: flex;
-        width: 100%;
-        margin-top: 20px;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
+                                                                        /* CORPO-------------------- */
+                                                                        .primaria-corpo {
+                                                                            /* background: #ffffff; */
+                                                                            display: flex;
+                                                                            width: 100%;
+                                                                            margin-top: 20px;
+                                                                            align-items: center;
+                                                                            justify-content: center;
+                                                                            flex-direction: column;
+                                                                        }
 
-    .corp-f1 {
-        background: #08B81B;
-        display: flex;
-        flex-direction: column;
-        width: 99%;
-        height: auto;
-    }
+                                                                        .corp-f1 {
+                                                                            background: #08B81B;
+                                                                            display: flex;
+                                                                            flex-direction: column;
+                                                                            width: 99%;
+                                                                            height: auto;
+                                                                        }
 
-    .spam-banner {
-        background: #fff;
-        height: 15px;
-        margin-top: -10px;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-    }
-    #banner{
-        height: 50%;
-        width: 100%;
-    }
+                                                                        .spam-banner {
+                                                                            background: #fff;
+                                                                            height: 15px;
+                                                                            margin-top: -10px;
+                                                                            border-top-left-radius: 20px;
+                                                                            border-top-right-radius: 20px;
+                                                                        }
 
+                                                                        #banner {
+                                                                            height: 50%;
+                                                                            width: 100%;
+                                                                        }
 
-    .corp-f2 {
-        display: flex;
-        background: #fff;
-        margin-top: 1px;
-        width: 99%;
-        flex-direction: column;
-        align-items: center;
+                                                                        .spam2 {
+                                                                            display: flex;
+                                                                            background-color: aqua;
+                                                                            color: black;
+                                                                            position: absolute;
+                                                                            width: 100%;
+                                                                            height: 100%;
+                                                                        }
 
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-    }
+                                                                        .corp-f2 {
+                                                                            display: flex;
+                                                                            background: #fff;
+                                                                            margin-top: 1px;
+                                                                            width: 99%;
+                                                                            flex-direction: column;
+                                                                            align-items: center;
 
-    .conteudo-corpo {
-        width: 90%;
-    }
-    .conteudo-sobremim{
-        background: #ffffff;
-        margin-top: 50px;
-        text-align: center;
-    }
+                                                                            border-bottom-left-radius: 20px;
+                                                                            border-bottom-right-radius: 20px;
+                                                                        }
 
-    .conteudo-projetos{
-        background: #ffffff;
-        margin-top: 80px;
-    }
-    #titulos {
-        margin-left: 10px;
-        font-size: 40px;
-        color: #08B81B;
-        text-align: center;
-        justify-content: center;
-    }
-    #text-sobremim{
-        font-size: 20px;
-    }
-    #subtitulos{
-        color: #08B81B;
-        font-size: 25px;
-        
-    }
+                                                                        .conteudo-corpo {
+                                                                            width: 95%;
+                                                                        }
 
-    #text-projetos{
-        font-size: 20px;
-        color: #000000;
-        margin-top: -20px;
-        
-    } 
-    .projeto{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .conteudo-chave{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      background-color: #ffffff;
-    }
-    #frase-chave1{
-        color: #08B81B;
-        font-size: 25px;
-        text-align: center;
-    }   
-    .conteudo-chave-2{
-        font-size: 25px;
-        margin-top: -10px;
-        display: flex;
-        color:#08B81B;
-        gap: 40px;
-    }
-}
-@media only screen and (min-width: 1024px) {
+                                                                        .conteudo-sobremim {
+                                                                            background: #ffffff;
+                                                                            margin-top: 50px;
+                                                                            text-align: center;
+                                                                            width: 100%;
+                                                                            display: flex;
+                                                                            flex-direction: column;
+                                                                            align-items: center;
+                                                                        }
 
-    body {
-        background: #08B81B;
-    }
+                                                                        .conteudo-projetos {
+                                                                            background: #ffffff;
+                                                                            margin-top: 50px;
+                                                                        }
 
-    .primaria-cabecalho {
-        display: flex;
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-        margin: auto;
-    }
-    .div-logos{
-        display: flex;
-        margin-right: 40px;
-        gap: 15px;
-    }
-    #logowhats:hover,#logoinsta:hover{filter: brightness(70%);} 
-    #logowhats,#logoinsta{height: 60px;}
+                                                                        #titulos {
+                                                                            margin-left: 10px;
+                                                                            font-size: 25px;
+                                                                            color: #08B81B;
+                                                                            text-align: center;
+                                                                            justify-content: center;
+                                                                        }
 
-    #titulo-cabecalho {
-        color: #08B81B;
-    }
+                                                                        #text-sobremim {
+                                                                            font-size: 15px;
+                                                                        }
 
-    
-    header {
-        display: flex;
-        background: #ffffff;
-        width: 60%;
-        height: 70px;
-        margin-right: 175px;
-        align-items: center;
-        justify-content: center;
-        border-bottom-right-radius: 20px;
-        border-bottom-left-radius: 20px;
-    }
+                                                                        #subtitulos {
+                                                                            color: #08B81B;
+                                                                            font-size: 18px;
+                                                                        }
 
-    .primaria-corpo {
-        /* background: #ffffff; */
-        display: flex;
-        width: 100%;
-        margin-top: 20px;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
+                                                                        #text-projetos {
+                                                                            font-size: 15px;
+                                                                            color: #000000;
+                                                                            margin-top: -10px;
 
-    .corp-f1 {
-        background: #08B81B;
-        display: flex;
-        flex-direction: column;
-        width: 99%;
-        height: auto;
-    }
+                                                                        }
 
-    .spam-banner {
-        background: #fff;
-        height: 15px;
-        margin-top: -10px;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-    }
-    #banner{
-        height: 50%;
-        width: 100%;
-    }
+                                                                        .projeto {
+                                                                            display: flex;
+                                                                            flex-direction: column;
+                                                                            margin-top: -10px;
+                                                                        }
 
-    #img-sobremim{
-        height: 563px;
-    }
+                                                                        .conteudo-chave {
+                                                                            display: flex;
+                                                                            flex-direction: column;
+                                                                            align-items: center;
+                                                                            background-color: #ffffff;
+                                                                            border-radius: 20px;
+                                                                        }
+
+                                                                        #frase-chave1 {
+                                                                            color: #08B81B;
+                                                                            font-size: 15px;
+                                                                            text-align: center;
+                                                                        }
+
+                                                                        .conteudo-chave-2 {
+                                                                            font-size: 13px;
+                                                                            margin-top: -10px;
+                                                                            display: flex;
+                                                                            color: #08B81B;
+                                                                            gap: 20px;
+                                                                        }
+                                                                    }
+
+                                                                    @media only screen and (min-width: 767px) and (max-width: 1023px) {
+                                                                        body {
+                                                                            background: #08B81B;
+                                                                        }
+
+                                                                        #img-sobremim {
+                                                                            height: 200px;
+                                                                            margin-left: 30px;
+                                                                        }
+
+                                                                        .primaria-cabecalho {
+
+                                                                            display: flex;
+                                                                            width: 100%;
+                                                                            align-items: center;
+                                                                            justify-content: center;
+                                                                            margin: auto;
+                                                                        }
+
+                                                                        .div-logos {
+                                                                            display: flex;
+                                                                            align-items: flex-end;
+                                                                            margin-right: 20px;
+                                                                            justify-content: flex-end;
+                                                                            gap: 10px;
+                                                                        }
+
+                                                                        #logowhats:hover,
+                                                                        #logoinsta:hover {
+                                                                            filter: brightness(70%);
+                                                                        }
+
+                                                                        #titulo-cabecalho {
+                                                                            color: #08B81B;
+                                                                        }
+
+                                                                        header {
+                                                                            display: flex;
+                                                                            background: #ffffff;
+                                                                            width: 60%;
+                                                                            height: 70px;
+                                                                            margin-right: 125px;
+                                                                            align-items: center;
+                                                                            justify-content: center;
+                                                                            border-bottom-right-radius: 20px;
+                                                                            border-bottom-left-radius: 20px;
+                                                                        }
 
 
-    .corp-f2 {
-        display: flex;
-        background: #fff;
-        margin-top: 1px;
-        width: 99%;
-        flex-direction: column;
-        align-items: center;
 
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-    }
+                                                                        /* CORPO-------------------- */
+                                                                        .primaria-corpo {
+                                                                            /* background: #ffffff; */
+                                                                            display: flex;
+                                                                            width: 100%;
+                                                                            margin-top: 20px;
+                                                                            align-items: center;
+                                                                            justify-content: center;
+                                                                            flex-direction: column;
+                                                                        }
 
-    .conteudo-corpo {
-        width: 90%;
-    }
-    .conteudo-sobremim{
-        background: #ffffff;
-        margin-top: 50px;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
+                                                                        .corp-f1 {
+                                                                            background: #08B81B;
+                                                                            display: flex;
+                                                                            flex-direction: column;
+                                                                            width: 99%;
+                                                                            height: auto;
+                                                                        }
 
-    .conteudo-projetos{
-        background: #ffffff;
-        margin-top: 40px;
-    }
-    #titulos {
-        margin-left: 10px;
-        font-size: 40px;
-        color: #08B81B;
-        text-align: center;
-        justify-content: center;
-    }
-    #text-sobremim{
-        font-size: 20px;
-    }
-    #subtitulos{
-        color: #08B81B;
-        font-size: 25px;
-        
-    }
+                                                                        .spam-banner {
+                                                                            background: #fff;
+                                                                            height: 15px;
+                                                                            margin-top: -10px;
+                                                                            border-top-left-radius: 20px;
+                                                                            border-top-right-radius: 20px;
+                                                                        }
 
-    #text-projetos{
-        font-size: 20px;
-        color: #000000;
-        margin-top: -20px;
-        
-    } 
-    .projeto{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .conteudo-chave{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      background-color: #ffffff;
-    }
-    #frase-chave1{
-        color: #08B81B;
-        font-size: 25px;
-    }   
-    .conteudo-chave-2{
-        font-size: 25px;
-        margin-top: -10px;
-        display: flex;
-        color:#08B81B;
-        gap: 40px;
-    }
-}
+                                                                        #banner {
+                                                                            height: 50%;
+                                                                            width: 100%;
+                                                                        }
+
+
+                                                                        .corp-f2 {
+                                                                            display: flex;
+                                                                            background: #fff;
+                                                                            margin-top: 1px;
+                                                                            width: 99%;
+                                                                            flex-direction: column;
+                                                                            align-items: center;
+
+                                                                            border-bottom-left-radius: 20px;
+                                                                            border-bottom-right-radius: 20px;
+                                                                        }
+
+                                                                        .conteudo-corpo {
+                                                                            width: 90%;
+                                                                        }
+
+                                                                        .conteudo-sobremim {
+                                                                            background: #ffffff;
+                                                                            margin-top: 50px;
+                                                                            text-align: center;
+                                                                        }
+
+                                                                        .conteudo-projetos {
+                                                                            background: #ffffff;
+                                                                            margin-top: 80px;
+                                                                        }
+
+                                                                        #titulos {
+                                                                            margin-left: 10px;
+                                                                            font-size: 40px;
+                                                                            color: #08B81B;
+                                                                            text-align: center;
+                                                                            justify-content: center;
+                                                                        }
+
+                                                                        #text-sobremim {
+                                                                            font-size: 20px;
+                                                                        }
+
+                                                                        #subtitulos {
+                                                                            color: #08B81B;
+                                                                            font-size: 25px;
+
+                                                                        }
+
+                                                                        #text-projetos {
+                                                                            font-size: 20px;
+                                                                            color: #000000;
+                                                                            margin-top: -20px;
+
+                                                                        }
+
+                                                                        .projeto {
+                                                                            display: flex;
+                                                                            flex-direction: column;
+                                                                        }
+
+                                                                        .conteudo-chave {
+                                                                            display: flex;
+                                                                            flex-direction: column;
+                                                                            align-items: center;
+                                                                            background-color: #ffffff;
+                                                                        }
+
+                                                                        #frase-chave1 {
+                                                                            color: #08B81B;
+                                                                            font-size: 25px;
+                                                                            text-align: center;
+                                                                        }
+
+                                                                        .conteudo-chave-2 {
+                                                                            font-size: 25px;
+                                                                            margin-top: -10px;
+                                                                            display: flex;
+                                                                            color: #08B81B;
+                                                                            gap: 40px;
+                                                                        }
+                                                                    }
+
+                                                                    @media only screen and (min-width: 1024px) {
+
+                                                                        body {
+                                                                            background: #08B81B;
+                                                                        }
+
+                                                                        .primaria-cabecalho {
+                                                                            display: flex;
+                                                                            width: 100%;
+                                                                            align-items: center;
+                                                                            justify-content: center;
+                                                                            margin: auto;
+                                                                        }
+
+                                                                        .div-logos {
+                                                                            display: flex;
+                                                                            margin-right: 40px;
+                                                                            gap: 15px;
+                                                                        }
+
+                                                                        #logowhats:hover,
+                                                                        #logoinsta:hover {
+                                                                            filter: brightness(70%);
+                                                                        }
+
+                                                                        #logowhats,
+                                                                        #logoinsta {
+                                                                            height: 60px;
+                                                                        }
+
+                                                                        #titulo-cabecalho {
+                                                                            color: #08B81B;
+                                                                        }
+
+
+                                                                        header {
+                                                                            display: flex;
+                                                                            background: #ffffff;
+                                                                            width: 60%;
+                                                                            height: 70px;
+                                                                            margin-right: 175px;
+                                                                            align-items: center;
+                                                                            justify-content: center;
+                                                                            border-bottom-right-radius: 20px;
+                                                                            border-bottom-left-radius: 20px;
+                                                                        }
+
+                                                                        .primaria-corpo {
+                                                                            /* background: #ffffff; */
+                                                                            display: flex;
+                                                                            width: 100%;
+                                                                            margin-top: 20px;
+                                                                            align-items: center;
+                                                                            justify-content: center;
+                                                                            flex-direction: column;
+                                                                        }
+
+                                                                        .corp-f1 {
+                                                                            background: #08B81B;
+                                                                            display: flex;
+                                                                            flex-direction: column;
+                                                                            width: 99%;
+                                                                            height: auto;
+                                                                        }
+
+                                                                        .spam-banner {
+                                                                            background: #fff;
+                                                                            height: 15px;
+                                                                            margin-top: -10px;
+                                                                            border-top-left-radius: 20px;
+                                                                            border-top-right-radius: 20px;
+                                                                        }
+
+                                                                        #banner {
+                                                                            height: 50%;
+                                                                            width: 100%;
+                                                                        }
+
+                                                                        #img-sobremim {
+                                                                            height: 563px;
+                                                                        }
+
+
+                                                                        .corp-f2 {
+                                                                            display: flex;
+                                                                            background: #fff;
+                                                                            margin-top: 1px;
+                                                                            width: 99%;
+                                                                            flex-direction: column;
+                                                                            align-items: center;
+
+                                                                            border-bottom-left-radius: 20px;
+                                                                            border-bottom-right-radius: 20px;
+                                                                        }
+
+                                                                        .conteudo-corpo {
+                                                                            width: 90%;
+                                                                        }
+
+                                                                        .conteudo-sobremim {
+                                                                            background: #ffffff;
+                                                                            margin-top: 50px;
+                                                                            text-align: center;
+                                                                            display: flex;
+                                                                            flex-direction: column;
+                                                                            align-items: center;
+                                                                            justify-content: center;
+                                                                        }
+
+                                                                        .conteudo-projetos {
+                                                                            background: #ffffff;
+                                                                            margin-top: 40px;
+                                                                        }
+
+                                                                        #titulos {
+                                                                            margin-left: 10px;
+                                                                            font-size: 40px;
+                                                                            color: #08B81B;
+                                                                            text-align: center;
+                                                                            justify-content: center;
+                                                                        }
+
+                                                                        #text-sobremim {
+                                                                            font-size: 20px;
+                                                                        }
+
+                                                                        #subtitulos {
+                                                                            color: #08B81B;
+                                                                            font-size: 25px;
+
+                                                                        }
+
+                                                                        #text-projetos {
+                                                                            font-size: 20px;
+                                                                            color: #000000;
+                                                                            margin-top: -20px;
+
+                                                                        }
+
+                                                                        .projeto {
+                                                                            display: flex;
+                                                                            flex-direction: column;
+                                                                        }
+
+                                                                        .conteudo-chave {
+                                                                            display: flex;
+                                                                            flex-direction: column;
+                                                                            align-items: center;
+                                                                            background-color: #ffffff;
+                                                                        }
+
+                                                                        #frase-chave1 {
+                                                                            color: #08B81B;
+                                                                            font-size: 25px;
+                                                                        }
+
+                                                                        .conteudo-chave-2 {
+                                                                            font-size: 25px;
+                                                                            margin-top: -10px;
+                                                                            display: flex;
+                                                                            color: #08B81B;
+                                                                            gap: 40px;
+                                                                        }
+                                                                    }
